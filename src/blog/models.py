@@ -4,7 +4,7 @@ from pgvector.django import VectorField
 from . import services
 EMBEDDING_LENGTH=services.EMEDDING_LENGTH
 
-
+# https://platform.openai.com/docs/guides/embeddings/embedding-models
 EMBEDDING_LENGTH = 768
 
 class BlogPost(models.Model):
